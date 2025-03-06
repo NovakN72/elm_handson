@@ -26,4 +26,4 @@ update msg _ =
             ( (), sendTimeToMain <| Time.posixToMillis t )
 
 
-port sendTimeToMain : Int -> Cmd msg
+port sendTimeToMainn : Int -> Cmd msg
